@@ -54,7 +54,7 @@
 				}
 				catch ( Exception ex )
 				{
-					Essentials.Log.Error( "Error getting players list.  Check and Conceal failed: {0}", ex );
+					Essentials.Log.Error(ex, $"Error getting players list.  Check and Conceal failed: {ex}");
 					return;
 				}
 
@@ -64,7 +64,7 @@
 				}
 				catch ( Exception ex )
 				{
-					Essentials.Log.Error( "Error getting entity list, skipping check", ex );
+					Essentials.Log.Error(ex, "Error getting entity list, skipping check");
 					return;
 				}
 

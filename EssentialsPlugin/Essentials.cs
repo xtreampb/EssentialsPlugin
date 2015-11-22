@@ -1,4 +1,6 @@
-﻿namespace EssentialsPlugin
+﻿using VRage.Plugins;
+
+namespace EssentialsPlugin
 {
 	using System;
 	using System.Collections.Generic;
@@ -11,17 +13,17 @@
 	using System.Runtime.InteropServices;
 	using System.Threading;
 	using System.Windows.Forms.Design;
-	using EssentialsPlugin.ChatHandlers;
-	using EssentialsPlugin.ChatHandlers.Admin;
-	using EssentialsPlugin.ChatHandlers.AdminConceal;
-	using EssentialsPlugin.ChatHandlers.AdminDelete;
-	using EssentialsPlugin.ChatHandlers.AdminScan;
-	using EssentialsPlugin.ChatHandlers.Dock;
-	using EssentialsPlugin.ChatHandlers.Waypoints;
-	using EssentialsPlugin.ProcessHandlers;
-	using EssentialsPlugin.Settings;
-	using EssentialsPlugin.Utility;
-	using EssentialsPlugin.UtilityClasses;
+	using ChatHandlers;
+	using ChatHandlers.Admin;
+	using ChatHandlers.AdminConceal;
+	using ChatHandlers.AdminDelete;
+	using ChatHandlers.AdminScan;
+	using ChatHandlers.Dock;
+	using ChatHandlers.Waypoints;
+	using ProcessHandlers;
+	using Settings;
+	using Utility;
+	using UtilityClasses;
 	using NLog;
 	using Sandbox.ModAPI;
 	using SEModAPI.API.Utility;
@@ -45,7 +47,7 @@
 		private List<ProcessHandlerBase> _processHandlers;
 		private List<ChatHandlerBase> _chatHandlers;
 		private bool _running = true;
-		private DateTime m_lastProcessUpdate;
+		//private DateTime m_lastProcessUpdate; //wasn't being used
 
 		#endregion
 

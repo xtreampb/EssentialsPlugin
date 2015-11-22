@@ -236,7 +236,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\SEServerExtender\SEModAPIExtensions\bin\x64\Debug\SEModAPIExtensions.dll</HintPath>
     </Reference>
-    <Reference Include="SEModAPIInternal, Version=1.74.10.350, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="SEModAPIInternal, Version=1.101.29.638, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\SEServerExtender\SEModAPIInternal\bin\x64\Debug\SEModAPIInternal.dll</HintPath>
     </Reference>

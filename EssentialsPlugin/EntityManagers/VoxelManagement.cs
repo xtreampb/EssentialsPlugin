@@ -77,7 +77,7 @@
 			}
 			catch ( Exception ex )
 			{
-				Essentials.Log.Error( "{0}", ex );
+				Essentials.Log.Error(ex, $"{0}");
 			}
 			finally
 			{
@@ -161,7 +161,7 @@
 			}
 			catch ( Exception ex )
 			{
-				Essentials.Log.Error( "{0}", ex );
+				Essentials.Log.Error(ex, $"{ex}");
 			}
 		}
 

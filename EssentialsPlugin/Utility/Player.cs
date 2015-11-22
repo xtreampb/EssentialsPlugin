@@ -13,7 +13,7 @@
 	using Sandbox.Common.ObjectBuilders;
 	using Sandbox.Common.ObjectBuilders.Definitions;
 	using Sandbox.ModAPI;
-	using SEModAPIInternal.API.Common;
+    using SEModAPIInternal.API.Common;
 	using SEModAPIInternal.API.Entity;
 	using SEModAPIInternal.API.Entity.Sector.SectorObject;
 	using SEModAPIInternal.API.Entity.Sector.SectorObject.CubeGrid;
@@ -445,7 +445,7 @@
 			}
 			catch (Exception ex)
 			{
-				Essentials.Log.Error( "Error saving player logins: {0}", ex );
+			    Essentials.Log.Error(ex, $"Error saving player logins: {ex}");
 			}
 		}
 

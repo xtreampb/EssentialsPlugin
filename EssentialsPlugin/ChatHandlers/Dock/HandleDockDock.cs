@@ -262,21 +262,22 @@
 			}
 			catch ( SecurityException ex )
 			{
-				Log.Error( "Can't access docked ship file.", ex );
+				Log.Error(ex, "Can't access docked ship file.");
 				return false;
 			}
 			catch ( UnauthorizedAccessException ex )
 			{
-				Log.Error( "Can't access docked ship file.", ex );
+				Log.Error(ex, "Can't access docked ship file.");
 				return false;
 			}
 			catch ( DirectoryNotFoundException ex )
 			{
-				Log.Error( "Directory does not exist", ex );
+				Log.Error(ex, "Directory does not exist");
 				return false;
 			}
 			catch ( IOException ex )
 			{
+                Log.Error(ex, $"IOException occured {ex}");
 				return false;
 			}
 			finally
