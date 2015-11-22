@@ -228,21 +228,24 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\SEServerExtender\GameLibraries\Sandbox.Game.dll</HintPath>
     </Reference>
-    <Reference Include="SEModAPI, Version=1.74.10.278, Culture=neutral, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SEServerExtender\SEModAPI\bin\x64\Debug\SEModAPI.dll</HintPath>
+    <Reference Include="SEComm">
+      <HintPath>..\..\SEServerExtender\Output\Debug\SEComm.dll</HintPath>
     </Reference>
-    <Reference Include="SEModAPIExtensions, Version=1.74.10.237, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="SEModAPI, Version=1.101.29.431, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SEServerExtender\SEModAPIExtensions\bin\x64\Debug\SEModAPIExtensions.dll</HintPath>
+      <HintPath>..\..\SEServerExtender\Output\Debug\SEModAPI.dll</HintPath>
     </Reference>
-    <Reference Include="SEModAPIInternal, Version=1.101.29.638, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="SEModAPIExtensions, Version=1.101.29.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SEServerExtender\SEModAPIInternal\bin\x64\Debug\SEModAPIInternal.dll</HintPath>
+      <HintPath>..\..\SEServerExtender\Output\Debug\SEModAPIExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SEModAPIInternal, Version=1.101.29.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SEServerExtender\Output\Debug\SEModAPIInternal.dll</HintPath>
     </Reference>
     <Reference Include="SpaceEngineers.Game, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SEServerExtender\GameLibraries\SpaceEngineers.Game.dll</HintPath>
+      <HintPath>..\..\SEServerExtender\Output\Debug\SpaceEngineers.Game.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Design" />
@@ -253,18 +256,27 @@
     <Reference Include="System.XML" />
     <Reference Include="VRage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SEServerExtender\GameLibraries\VRage.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.dll</HintPath>
     </Reference>
-    <Reference Include="VRage.Game">
-      <HintPath>..\..\SEServerExtender\GameLibraries\VRage.Game.dll</HintPath>
+    <Reference Include="VRage.Dedicated, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SEServerExtender\Output\Debug\VRage.Dedicated.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Game, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Game.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SEServerExtender\GameLibraries\VRage.Library.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SEServerExtender\GameLibraries\VRage.Math.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Render, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SEServerExtender\Output\Debug\VRage.Render.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>

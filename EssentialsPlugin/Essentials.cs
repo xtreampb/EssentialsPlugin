@@ -1,4 +1,4 @@
-﻿using VRage.Plugins;
+﻿//using VRage.Plugins;
 
 namespace EssentialsPlugin
 {
@@ -33,7 +33,7 @@ namespace EssentialsPlugin
 	using SEModAPIInternal.API.Common;
 	using SEModAPIInternal.API.Entity.Sector.SectorObject;
 	using SEModAPIInternal.API.Entity.Sector.SectorObject.CubeGrid;
-	using VRage.ModAPI;
+    using VRage.ModAPI;
 
 	public class Essentials : IPlugin, IChatEventHandler, IPlayerEventHandler, ICubeGridHandler, ICubeBlockEventHandler, ISectorEventHandler
 	{
@@ -991,6 +991,7 @@ namespace EssentialsPlugin
 			_processThread = new Thread( PluginProcessing );
 			_processThread.Start( );
 
+            //MyAPIGateway.Entities.OnEntityAdd -= new Action<VRage.ModAPI.IMyEntity>(OnEn);
 			MyAPIGateway.Entities.OnEntityAdd -= OnEntityAdd;
 			MyAPIGateway.Entities.OnEntityRemove -= OnEntityRemove;
 			MyAPIGateway.Entities.OnEntityAdd += OnEntityAdd;
